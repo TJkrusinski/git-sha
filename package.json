@@ -1,0 +1,32 @@
+{
+  "name": "git-sha",
+  "version": "1.0.0",
+  "description": "Get the HEAD git sha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TJkrusinski/git-sha.git"
+  },
+  "keywords": [
+    "git",
+    "sha",
+    "HEAD",
+    "get"
+  ],
+  "author": "TJ Krusinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJkrusinski/git-sha/issues"
+  },
+  "homepage": "https://github.com/TJkrusinski/git-sha",
+  "dependencies": {
+    "which": "^1.0.5"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "sinon": "^1.12.1"
+  }
+}
